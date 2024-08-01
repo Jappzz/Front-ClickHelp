@@ -1,0 +1,17 @@
+.ul{
+    display: flex;
+    padding-top: 75px;
+    gap: 6px;
+    position: relative;
+    justify-content: center;
+}
+@media(max-width: 820px){
+    .ul{
+        padding-top: 100px;
+        justify-content: start;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        
+    }
+}

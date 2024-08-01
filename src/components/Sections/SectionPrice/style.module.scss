@@ -1,0 +1,27 @@
+.section_container{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-top: 80px;
+}
+
+@media(max-width: 825px){
+    .section_container{
+        height: 800px;
+    }
+    .title{
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,15 @@
+.ul_container{
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+}
+
+@media(max-width: 820px){
+    .ul_container{
+        padding-left: 5px;
+        padding-right: 5px;
+        justify-content: start;
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+}
